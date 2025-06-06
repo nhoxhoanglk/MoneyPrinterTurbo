@@ -128,7 +128,7 @@ subtitle_provider = "edge"
 #   Install ffmpeg on your system, or set the IMAGEIO_FFMPEG_EXE environment variable.
 # In such cases, you can manually download ffmpeg and set the ffmpeg_path, download link: https://www.gyan.dev/ffmpeg/builds/
 
-# ffmpeg_path = "C:\\Users\\harry\\Downloads\\ffmpeg.exe"
+ ffmpeg_path = "/usr/local/bin/ffmpeg"
 #########################################################################################
 
 # 当视频生成成功后，API服务提供的视频下载接入点，默认为当前服务的地址和监听端口
