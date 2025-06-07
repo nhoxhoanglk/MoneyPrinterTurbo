@@ -128,7 +128,7 @@ subtitle_provider = "edge"
 #   Install ffmpeg on your system, or set the IMAGEIO_FFMPEG_EXE environment variable.
 # In such cases, you can manually download ffmpeg and set the ffmpeg_path, download link: https://www.gyan.dev/ffmpeg/builds/
 
- ffmpeg_path = "/usr/local/bin/ffmpeg"
+ ffmpeg_path = "/usr/local/ffmpeg/bin/ffmpeg"
 #########################################################################################
 
 # 当视频生成成功后，API服务提供的视频下载接入点，默认为当前服务的地址和监听端口
@@ -183,7 +183,7 @@ max_concurrent_tasks = 5
 # recommended model_size: "large-v3"
 model_size = "large-v3"
 # if you want to use GPU, set device="cuda"
-device = "CPU"
+device = "cuda"
 compute_type = "int8"
 
 
